@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/booking.py": {
+      "runtime": "python3.9"
+    }
+  }
+}
