@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/booking.py": {
+    "api/*.py": {
       "runtime": "python3.11"
     }
   }
