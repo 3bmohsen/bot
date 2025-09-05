@@ -1,5 +1,6 @@
 import requests
 import time
+import os
 
 url = "https://tms.tabadul.sa/api/appointment/tas/v2/zone/schedule/land"
 params = {
@@ -58,4 +59,5 @@ while True:
         print("Error:", e)
 
     time.sleep(60)  # انتظر دقيقة
+
 
