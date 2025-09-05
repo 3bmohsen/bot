@@ -26,7 +26,7 @@ headers = {
     "sec-ch-ua": '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"',
     "sec-ch-ua-mobile": "?0",
     "sec-ch-ua-platform": '"Windows"',
-    "token": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiYWx1ZHMwMDE2MCIsIkdST1VQUyAiOiJUQVNHRU4sVFJOUFJULFRSTlBSVEYsVFJOUFJURkksVFJBTlNQT1JUX0FHRU5UIiwiR1JPVVBTIjoiVEFTR0VOLFRSTlBSVCxUUk5QUlRGLFRSTlBSVEZJLFRSQU5TUE9SVF9BR0VOVCIsIklTX1NTTyAiOmZhbHNlLCJTU09fVE9LRU4gIjoiIiwiSVNfU1NPIjpmYWxzZSwiU1NPX1RPS0VOIjoiIiwiQ0xJRU5UX05BTUUiOiJGQVNBSCIsImlzcyI6IkZBU0FIIiwiYXVkIjoiRkFTQUggQXBwbGljYXRpb24iLCJleHAiOjE3NTY5NjgwOTF9.0UFfGxMqll1bHErASb9GOZw3RgZWfZd69h5Y-hlOuuvdXAu-t-IoNcMUxaLyourL2ehThH7-biVNp862gFiqJQ"
+    "token": f"Bearer {os.getenv('token')}"
 }
 
 while True:
@@ -58,3 +58,4 @@ while True:
         print("Error:", e)
 
     time.sleep(60)  # انتظر دقيقة
+
